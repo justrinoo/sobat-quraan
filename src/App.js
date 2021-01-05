@@ -4,8 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { BrowserRouter as Switch, Route } from 'react-router-dom'
 
-import WhySobat from './pages/WhySobat';
-
+import WhySobat from './parts/WhySobat';
 
 function App() {
   return (

@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Footer from '../src/pages/Footer';
+// import Footer from '../src/parts/Footer';
+// import JadwalSholat from "../src/pages/JadwalSholat";
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Footer />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Link, Router } from "react-router-dom";
+// import { Link, Router } from "react-router-dom";
+import "../App.css";
 
 export default class Footer extends Component {
   render() {
@@ -30,7 +31,12 @@ export default class Footer extends Component {
             </Col>
           </Row>
           <div className="text-center">
-              <p className="text-muted">Sobat Quran adalah Aplikasi Karya Anak Bangsa.</p>
+              <p className="text-muted"
+              style={{
+                fontSize: "12px"
+              }}>
+                Sobat Quran adalah Aplikasi Karya Anak Bangsa.
+              </p>
               <p className="">© 2020 Sobat Quraan. All rights reserved.</p>
           </div>
         </Container>
