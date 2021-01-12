@@ -24,31 +24,27 @@ function Navigation() {
 					<div className="collapse navbar-collapse" id="navbar">
 						<ul className="navbar-nav ml-auto">
 							<li className="nav-item ">
-								<NavLink activeClassName className="nav-link mx-3" to="/">
+								<NavLink className="nav-link mx-3" to="/">
 									Home
 								</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink activeClassName className="nav-link mx-3" to="/">
+								<NavLink className="nav-link mx-3" to="/">
 									Jadwal Sholat
 								</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink
-									activeClassName
-									className="nav-link mx-3"
-									to="/reading/allsurat"
-								>
+								<NavLink className="nav-link mx-3" to="/reading/allsurat">
 									Yuk Ngaji
 								</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink activeClassName className="nav-link mx-3" to="/">
+								<NavLink className="nav-link mx-3" to="/">
 									About
 								</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink activeClassName className="nav-link mx-3" to="/">
+								<NavLink className="nav-link mx-3" to="/">
 									Contact
 								</NavLink>
 							</li>
