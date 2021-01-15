@@ -4,7 +4,10 @@ import TestiImage from "../../assets/images/image-hero.png";
 export default function Testi() {
   return (
     <>
-      <div className="jumbotron">
+      <div className="jumbotron mt-3">
+        <div className="container">
+          <h3 className="mb-4">Pendapat Mereka Tentang Sobat Qur'an?</h3>
+        </div>
         <div className="container">
           <div className="row">
             <div className="col">
@@ -73,9 +76,6 @@ export default function Testi() {
                 </div>
               </div>
             </div>
-    
-    
-    
           </div>
         </div>
       </div>

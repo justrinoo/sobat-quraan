@@ -4,6 +4,7 @@ import DetailSurat from "../components/HeroSurat/DetailSurat";
 import Landing from "../pages/Landing";
 import PageAllSurat from "../pages/Surat";
 import NotFound from "../private";
+import JadwalSholat from "../components/JadwalSholat"
 
 function TheRouter() {
 	return (
@@ -11,6 +12,7 @@ function TheRouter() {
 			<Router>
 				<Switch>
 					<Route exact path="/" component={Landing} />
+					<Route exact path="/jadwalsolat" component={JadwalSholat} />
 					<Route exact path="/reading/allsurat" component={PageAllSurat} />
 					<Route
 						exact
