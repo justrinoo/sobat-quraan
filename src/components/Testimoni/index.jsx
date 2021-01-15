@@ -12,7 +12,7 @@ export default function Testi() {
           <div className="row">
             <div className="col">
               <div className="card mb-3">
-                <div className="card-body py-4">
+                <div className="card-body py-4 rounded" >
                   <p>
                     Sobat Qur'an ini sangat membantu saya untuk belajar dan
                     membaca al quran dengan efisien dan mudah dan ga cuma ituu
@@ -35,7 +35,7 @@ export default function Testi() {
 
             <div className="col">
               <div className="card mb-3">
-                <div className="card-body py-3">
+                <div className="card-body py-3 rounded">
                   <p>
                     Aplikasi ini sangat membantu saya untuk membaca alquran
                     melalui handphone dan juga diaplikasi ini tersedia jadwal
@@ -59,7 +59,7 @@ export default function Testi() {
     
             <div className="col">
               <div className="card mb-3">
-                <div className="card-body py-4">   
+                <div className="card-body py-4 rounded">   
                   <p>
                   Dengan aplikasi ini memudahkan banyak orang untuk membaca alquran dan melihat jadwal sholat, cocok banget untuk orang yang sedang diluar rumah dapat menggunakan aplikasi ini dengan mudah 
                   </p>
