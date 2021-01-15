@@ -17,8 +17,7 @@ function Hero() {
 						</Bounce>
 						<Bounce left key={450}>
 							<p className="font-weight-light mt-3">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-								quod labore excepturi
+							Belajar Quran dan Membaca kisah nabi & semua tentang sejarah islam sekali setiap hari.
 							</p>
 						</Bounce>
 						<Zoom top key={2000}>
@@ -67,8 +66,7 @@ function Hero() {
 						</Bounce>
 						<Bounce left key={450}>
 							<p className="font-weight-light mt-3">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-								quod labore excepturi
+							Belajar Quran dan Membaca kisah nabi & semua tentang sejarah islam sekali setiap hari.
 							</p>
 						</Bounce>
 						<Zoom top key={2000}>
