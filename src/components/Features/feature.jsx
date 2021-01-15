@@ -20,7 +20,7 @@ function feature() {
           <Zoom top key={2000}>
             <div className="row">
               <div className="col">
-                <div className="card mb-3 ">
+                <div className="card mb-3">
                   <img
                     src={ImageHero}
                     alt=""
@@ -33,13 +33,15 @@ function feature() {
                       Ada 30 Juz dan 114 surah dan 6666 ayat yang siap untuk di
                       baca
                     </p>
+                    <div className="text-center">
+                      <Link
+                        to="/reading/allsurat"
+                        className=" text-warning font-weight-bolder"
+                      >
+                        Baca Quran
+                      </Link>
+                    </div>
                   </div>
-                  <Link
-                    to="/reading/allsurat"
-                    className="text-center text-warning font-weight-bolder"
-                  >
-                    Baca Quran
-                  </Link>
                 </div>
               </div>
               <div className="col">
@@ -58,13 +60,12 @@ function feature() {
                       Kami menyediakan jadwal sholat lengkap dari waktu subuh -
                       isya
                     </p>
+                    <div className="text-center">
+                      <Link to="/" className="text-warning font-weight-bolder">
+                        Jadwal Sholat
+                      </Link>
+                    </div>
                   </div>
-                  <Link
-                    to="/"
-                    className="text-center text-warning font-weight-bolder"
-                  >
-                    Read More
-                  </Link>
                 </div>
               </div>
               <div className="col">
@@ -83,13 +84,12 @@ function feature() {
                       Kami menyediakan artikel - artikel islami seperti kisah
                       nabi dan rasul
                     </p>
+                    <div className="text-center">
+                      <Link to="/" className="text-warning font-weight-bolder">
+                        Baca Quran
+                      </Link>
+                    </div>
                   </div>
-                  <Link
-                    to="/"
-                    className="text-center text-warning font-weight-bolder"
-                  >
-                    Baca Quran
-                  </Link>
                 </div>
               </div>
             </div>

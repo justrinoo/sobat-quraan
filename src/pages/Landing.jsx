@@ -10,8 +10,8 @@ function Landing() {
 		<>
 			<Navigation />
 			<Hero />
-			<Footer />
 			<Features/>
+			<Footer />
 		</>
 	);
 }
