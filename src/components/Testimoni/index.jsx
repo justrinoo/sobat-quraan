@@ -27,7 +27,7 @@ export default function Testi() {
                       className="rounded-circle"
                       alt=""
                     />
-                    <p className="mx-4 mt-4">Muhamad Ryan Hidayat</p>
+                    <p className="mx-4 mt-4 font-weight-bold">Muhamad Ryan Hidayat</p>
                   </div>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function Testi() {
                       className="rounded-circle"
                       alt=""
                     />
-                    <p className="mx-4 mt-4">Akmal Widad Iskandar</p>
+                    <p className="mx-4 mt-3 font-weight-bold">Akmal Widad Iskandar</p>
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function Testi() {
                       className="rounded-circle"
                       alt=""
                     />
-                    <p className="mx-4 mt-4">M Ferdinan Zamtu Roikqhan</p>
+                    <p className="mx-4 mt-4 font-weight-bold">M Ferdinan Zamtu Roikqhan</p>
                   </div>
                 </div>
               </div>
