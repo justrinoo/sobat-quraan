@@ -12,9 +12,15 @@ function feature() {
         <div className="justify-content-between align-items-center">
           <div className="container">
             <Bounce left key={450}>
-              <h3 className="text-center text-white py-5">
+              <div className="py-5">
+              <h3 className="text-center text-white">
                 Kenapa Sobat Quran?
               </h3>
+
+              <p className="text-center text-white">
+              Sobatquran adalah program alquran digital yang memudahkan user untuk membaca alquran dimanapun dengan keuntungan seperti berikut:
+              </p>
+              </div>
             </Bounce>
           </div>
           <Zoom top key={2000}>
