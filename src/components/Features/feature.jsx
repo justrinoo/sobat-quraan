@@ -1,0 +1,103 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Bounce, Zoom } from "react-reveal";
+import ImageHero from "../../assets/images/image-hero.png";
+import jadwalSholat from "../../assets/images/jadwalSholat.svg";
+import bacaArtikel from "../../assets/images/bacaArtikel.svg";
+
+function feature() {
+  return (
+    <div className="bg-primary">
+      <div className="container">
+        <div className="justify-content-between align-items-center">
+          <div className="container">
+            <Bounce left key={450}>
+              <h3 className="text-center text-white py-5">
+                Kenapa Sobat Quran?
+              </h3>
+            </Bounce>
+          </div>
+          <Zoom top key={2000}>
+            <div className="row">
+              <div className="col">
+                <div className="card mb-3 ">
+                  <img
+                    src={ImageHero}
+                    alt=""
+                    style={{ height: "70%", width: "71%" }}
+                    className="d-block m-auto py-lg-1 py-2"
+                  />
+                  <div className="card-body">
+                    <h3 className="text-center font-weight-bold">Baca Quran</h3>
+                    <p className="card-text text-center font-weight-light">
+                      Ada 30 Juz dan 114 surah dan 6666 ayat yang siap untuk di
+                      baca
+                    </p>
+                  </div>
+                  <Link
+                    to="/reading/allsurat"
+                    className="text-center text-warning font-weight-bolder"
+                  >
+                    Baca Quran
+                  </Link>
+                </div>
+              </div>
+              <div className="col">
+                <div className="card mb-3">
+                  <img
+                    src={jadwalSholat}
+                    alt=""
+                    style={{ height: "100%", width: "80%" }}
+                    className="d-block mx-auto py-lg-4 py-1"
+                  />
+                  <div className="card-body">
+                    <h3 className="text-center font-weight-bold">
+                      Jadwal Sholat
+                    </h3>
+                    <p className="card-text text-center font-weight-light">
+                      Kami menyediakan jadwal sholat lengkap dari waktu subuh -
+                      isya
+                    </p>
+                  </div>
+                  <Link
+                    to="/"
+                    className="text-center text-warning font-weight-bolder"
+                  >
+                    Read More
+                  </Link>
+                </div>
+              </div>
+              <div className="col">
+                <div className="card mb-3">
+                  <img
+                    src={bacaArtikel}
+                    alt=""
+                    style={{ height: "80%", width: "80%" }}
+                    className="d-block m-auto justify-content-center py-lg-2 py-2"
+                  />
+                  <div className="card-body">
+                    <h3 className="text-center font-weight-bold">
+                      Baca Artikel
+                    </h3>
+                    <p className="card-text text-center font-weight-light">
+                      Kami menyediakan artikel - artikel islami seperti kisah
+                      nabi dan rasul
+                    </p>
+                  </div>
+                  <Link
+                    to="/"
+                    className="text-center text-warning font-weight-bolder"
+                  >
+                    Baca Quran
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </Zoom>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default feature;
