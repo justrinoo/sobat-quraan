@@ -21,7 +21,7 @@ export default function Testi() {
                   </p>
                   <div className="d-flex">
                     <img
-                      src="https://placeimg.com/200/200/people"
+                      src="https://placeimg.com/200/200/tech"
                       width="80"
                       height="80"
                       className="rounded-circle"
@@ -45,7 +45,7 @@ export default function Testi() {
                   </p>
                   <div className="d-flex">
                     <img
-                      src="https://placeimg.com/200/200/people"
+                      src="https://placeimg.com/200/200/tech"
                       width="80"
                       height="80"
                       className="rounded-circle"
@@ -65,7 +65,7 @@ export default function Testi() {
                   </p>
                   <div className="d-flex">
                     <img
-                      src="https://placeimg.com/200/200/people"
+                      src="https://placeimg.com/200/200/tech"
                       width="80"
                       height="80"
                       className="rounded-circle"
