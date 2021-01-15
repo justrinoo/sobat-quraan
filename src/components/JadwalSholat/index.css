@@ -1,0 +1,20 @@
+
+
+.jumbo-image{
+ background: url("../../assets/images/image-jadwal.png");
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.card-solat{
+    font-weight: bold;
+    width: "50px";
+ 
+    
+}
+.card-body{
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}

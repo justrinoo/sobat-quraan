@@ -8,7 +8,7 @@ function Hero() {
 				<div className="row">
 					<div className="col-md-5" style={{ marginTop: "50px" }}>
 						<Bounce left key={250}>
-							<h3 className="font-weight-bold" style={{ lineHeight: "35px" }}>
+							<h3 className="" style={{ lineHeight: "35px" }}>
 								"Sesungguhnya kita adalah milik allah dan sungguh kepada dia
 								kita akan kembali"
 							</h3>
