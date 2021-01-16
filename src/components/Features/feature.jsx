@@ -25,7 +25,7 @@ function feature() {
           </div>
           <Zoom top key={2000}>
             <div className="row">
-              <div className="col">
+              <div className="col-lg col-md-4">
                 <div className="card mb-3">
                   <img
                     src={ImageHero}
@@ -50,7 +50,7 @@ function feature() {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col-lg col-md-4">
                 <div className="card mb-3">
                   <img
                     src={jadwalSholat}
@@ -74,7 +74,7 @@ function feature() {
                   </div>
                 </div>
               </div>
-              <div className="col">
+              <div className="col-lg col-md-4">
                 <div className="card mb-3">
                   <img
                     src={bacaArtikel}
